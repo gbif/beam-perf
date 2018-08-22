@@ -1,6 +1,6 @@
 ### Avro to Avro tests
 
-Demonstration code for a simple read Avro, convert and write Avro test.
+Demonstration code for a simple job to read Avro, convert and then write to Avro.
 
 Code exists for testing with
 1. Vanilla spark
