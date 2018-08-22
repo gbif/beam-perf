@@ -13,13 +13,15 @@ Results show vanilla Spark around 18 minutes for a 1.5TB Avro file, with Beam up
 
 Early inspection indicates the bottelneck in the `WriteFiles` class of Beam which is fairly complex (2 jobs, temporary file writing, shuffles, group by key and union).
 
-The Beam version produces 2 jobs with DAGs of:
+The Beam version produces 2 jobs, each with 2 stages. Those stage DAGs:
 
 ##### Job 1
-![Job 1](./img/job1.png)
+![Stage 0](./img/stage0.png)
+![Stage 1](./img/stage1.png)
 
 ##### Job 2
-![Job 2](./img/job2.png)
+![Stage 2](./img/stage2.png)
+![Stage 3](./img/stage3.png)
   
 
   
