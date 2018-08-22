@@ -20,7 +20,7 @@
 *.rar
 
 *.idea
-
+*/*.iml
 target
 */target
 
