@@ -19,7 +19,7 @@ The Beam version produces 2 jobs with DAGs of:
 ![Job 1](./img/job1.png)
 
 ##### Job 2
-![Job 2](./img/job1.png)
+![Job 2](./img/job2.png)
   
 
   
